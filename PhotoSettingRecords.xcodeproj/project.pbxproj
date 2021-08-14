@@ -15,6 +15,9 @@
 		51C1F6C226C4DF06000F91A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C1F6C026C4DF06000F91A7 /* LaunchScreen.storyboard */; };
 		51C1F6CD26C4DF06000F91A7 /* PhotoSettingRecordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1F6CC26C4DF06000F91A7 /* PhotoSettingRecordsTests.swift */; };
 		51C1F6D826C4DF06000F91A7 /* PhotoSettingRecordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1F6D726C4DF06000F91A7 /* PhotoSettingRecordsUITests.swift */; };
+		51C1F6E626C5ED20000F91A7 /* RecordEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1F6E526C5ED20000F91A7 /* RecordEditor.swift */; };
+		51C1F6E826C61049000F91A7 /* ObjectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1F6E726C61049000F91A7 /* ObjectClass.swift */; };
+		51C1F6EA26C70E6A000F91A7 /* RecordCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C1F6E926C70E6A000F91A7 /* RecordCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		51C1F6D326C4DF06000F91A7 /* PhotoSettingRecordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSettingRecordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C1F6D726C4DF06000F91A7 /* PhotoSettingRecordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSettingRecordsUITests.swift; sourceTree = "<group>"; };
 		51C1F6D926C4DF06000F91A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C1F6E526C5ED20000F91A7 /* RecordEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordEditor.swift; sourceTree = "<group>"; };
+		51C1F6E726C61049000F91A7 /* ObjectClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectClass.swift; sourceTree = "<group>"; };
+		51C1F6E926C70E6A000F91A7 /* RecordCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				51C1F6BE26C4DF06000F91A7 /* Assets.xcassets */,
 				51C1F6C026C4DF06000F91A7 /* LaunchScreen.storyboard */,
 				51C1F6C326C4DF06000F91A7 /* Info.plist */,
+				51C1F6E526C5ED20000F91A7 /* RecordEditor.swift */,
+				51C1F6E726C61049000F91A7 /* ObjectClass.swift */,
+				51C1F6E926C70E6A000F91A7 /* RecordCreator.swift */,
 			);
 			path = PhotoSettingRecords;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C1F6BA26C4DF05000F91A7 /* ViewController.swift in Sources */,
+				51C1F6EA26C70E6A000F91A7 /* RecordCreator.swift in Sources */,
 				51C1F6B626C4DF05000F91A7 /* AppDelegate.swift in Sources */,
 				51C1F6B826C4DF05000F91A7 /* SceneDelegate.swift in Sources */,
+				51C1F6E626C5ED20000F91A7 /* RecordEditor.swift in Sources */,
+				51C1F6E826C61049000F91A7 /* ObjectClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
